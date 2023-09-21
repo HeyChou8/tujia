@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #ff9854;
+    --van-search-left-icon-color: var(--primary-color) !important;
+    --van-tab-font-size: 15px !important;
+    --van-primary-color: var(--primary-color) !important;
+    --theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+}
+.top-page {
+    position: relative;
+    z-index: 9;
+    height: 100vh !important;
+    background-color: #fff;
+    overflow-y: auto;
+}
+.hideTab {
+    /* 导航栏隐藏 */
+  }
+  .hideTab .van-tabs--line {
+    padding-top: 0!important;
+  }
+  .hideTab .van-tabs__wrap {
+    display: none!important;
+  }
+  .hideTab .van-tab__pane {
+    width: 100%;
+    height: 1000px!important;
+  }
+  .hideTab .van-tab__title {
+    font-size: 0px!important;
+  }
+  .hideTab .van-tab {
+    display: none !important;
+  }
